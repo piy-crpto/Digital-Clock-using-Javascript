@@ -1,0 +1,55 @@
+body{
+    background-color: #02070d;
+}
+.container{
+    width: 410px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+ 
+.clock{
+    width: 100%;
+    background-color: rgba(255,255,255,0.06);
+    padding: 50px 25px;
+    border: 1.5px solid rgba(255,255,255,0.06);
+    box-shadow: 0 25px 30px rgba(0,0,0,0.15);
+    backdrop-filter: blur(15px);
+    color: cyan;
+   
+    text-align: center;
+}
+#day{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#clock{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: darkkhaki;
+}
+
+
+
+.shape1{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    background:  #ff5ba8;
+    border-radius: 50%;
+    z-index: -1;
+    bottom: 100px;
+    right: -100px;
+}
+.shape2{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    background: #f8d742;
+    border-radius: 50%;
+    top: 100px;
+    left: -100px;
+    z-index: -1;
+}
